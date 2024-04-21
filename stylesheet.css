@@ -1,77 +1,77 @@
 html {
-   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic", sans-serif;
+  font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic", sans-serif;
 
-  }
+ }
 
 body{
-  position:fixed;
+ position:fixed;
 }
 .corpo{
-    background-color: rgb(0, 0, 0);
+   background-color: rgb(0, 0, 0);
 }
 .menu{
-   width: 330px;
-   display: block;
-   height: 80%;
-  }
-
- a:hover{
-  cursor: pointer;
-  text-decoration: underline;
+  width: 300px;
+  display: block;
+  height: 80%;
  }
+
+a:hover{
+ cursor: pointer;
+ text-decoration: underline;
+}
 p{
-    color: white;
+   color: white;
 }
 .logo{
-    width:75px;
+   width:75px;
 }
 .icone{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  background-color: rgb(18, 18, 18);
-  padding-bottom : 8px;
-  padding-left: 20px;
-  padding-top : 10px;
-  padding-right:  10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+ background-color: rgb(18, 18, 18);
+ padding-bottom : 8px;
+ padding-left: 20px;
+ padding-top : 10px;
+ padding-right:  10px;
 
-  border-radius: 10px;
-  height: 140px;
+ border-radius: 10px;
+ height: 140px;
 
 }
 .libreria{
-    margin-top: 10px;
-    background-color: rgb(18, 18, 18);
-    border-radius: 10px;
-    padding-top :5px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    
+   margin-top: 10px;
+   background-color: rgb(18, 18, 18);
+   border-radius: 10px;
+   padding-top :5px;
+   padding-left: 20px;
+   padding-bottom: 60px;
+   
 
 
 }
 .minidiv{
-    margin-top: 7%;
-    background-color: rgb(36, 36, 36);
-    padding-bottom : 16px;
-    padding-left:  10px;
-    padding-top : 16px;
-    padding-right:  16px;
-    margin-left: -10px;
-    margin-right: 8px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  
-    height: auto;
+   margin-top: 7%;
+   background-color: rgb(36, 36, 36);
+   padding-bottom : 16px;
+   padding-left:  10px;
+   padding-top : 16px;
+   padding-right:  16px;
+   margin-left: -10px;
+   margin-right: 8px;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   
+
 }
 .minidiv p {
-  font-size: 13px;
-  margin: 8px;
+ font-size: 13px;
+ margin: 8px;
 }
 .BottoneLibreria{
-    height: 32px;
+   height: 32px;
 width: 130px;
 padding: 5px;
 border-radius: 20px;
@@ -81,327 +81,354 @@ font-weight: 700;
 cursor: pointer;
 }
 .BottoneLibreria:hover{
-  padding: 6px;
-  font-size: 13px;
-  width: 131px;
+ padding: 5px;
+ font-size: 13px;
+ width: 135px;
+ height: 33px;
 }
 
 p{
-    margin: 9px;
+   margin: 9px;
 }
 .menu a{
-    color: grey;
-    text-decoration: none;
-    margin-left: 30px;
-    font-weight: 700;
+   color: grey;
+   text-decoration: none;
+   margin-left: 30px;
+   font-weight: 700;
 }
 .menu a:hover{
-  color: white;
-  
+ color: white;
+ 
 }
 #informazioni {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 60%;
-    font-weight: 700;
-    margin-left: 0;
-    line-height: 1.5;
-    color: #737373;
-  }
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   margin-top: 50%;
+   font-weight: 700;
+   margin-left: 0;
+   line-height: 1.5;
+   color: #737373;
+ }
+ 
+ #informazioni a {
+   text-decoration: none;
+   color: (167, 167, 167);
+   
+   margin-bottom: 2px;
+   font-size: 12px;
+   margin-left: 0;
+ }
+ 
+ #PoliticaCookie:hover {
+   text-decoration: underline;
+   
+ }
+ 
+ #informazioni .ancore {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 10px;
+   
+   font-size: 12px;
+ }
+ 
+ #informazioni .ancore a {
+   
+   font-size: 11px;
+   font-weight: 500;
+   margin-bottom: 5px;
   
-  #informazioni a {
-    text-decoration: none;
-    color: #737373;
-    
-    margin-bottom: 2px;
-    font-size: 12px;
-    margin-left: 0;
-  }
-  
-  #informazioni a:hover {
-    text-decoration: underline;
-  }
-  
-  #informazioni .ancore {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-    font-size: 12px;
-  }
-  
-  #informazioni .ancore a {
-    margin-right: 10px;
-    font-size: 11px;
-    font-weight: 500;
-    margin-bottom: 5px;
-    margin-left: 0;
-  }
+   margin: 5px 0 5px 0
+ }
 
 
 
 p >.icone{
-    padding: 10px
+   padding: 10px
 }
 .BottoneLingua {
-  margin-top: 30px;
-    color: #fff;
-    
-    text-align: center;
-    background-color: transparent;
-    border: 1px solid rgb(129, 129, 129);
-    border-radius: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100px;
-    height: 32px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-  }
-  
-  .BottoneLingua:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 3px solid rgb(255, 255, 255);
-    height: 33px;
-    width: 103px;
-  }
-  .sottodivicone{
-    display: flex;
-    flex-direction: row;
-  
-    
-  }
-  .sottodivicone :first-child{
-    align-self:normal;
-    margin-right: 4px;
-    width: 7.5%;
-  }
-  .sottodivicone a {
-    color: rgb(179, 179, 179);
-    text-decoration: none;
-    padding-top: 7px;
-    margin-left: 8px;
-    
-  }
-  
-   .titoletto {
-    font: 16px !important;
-    font-weight: 700 !important;
-    
-   }
-   .icona{
-   margin-top: 3px;
+ margin-top: 30px;
+   color: #fff;
+   
+   text-align: center;
+   background-color: transparent;
+   border: 1px solid rgb(129, 129, 129);
+   border-radius: 50px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 100px;
+   height: 32px;
+   font-size: 14px;
    cursor: pointer;
-    
-   }
-   .footer{
-    position: relative;
-    margin: 8px 2px;
-    height: 60px;
-    background-image: linear-gradient(90deg, #ae2997, #509bf5);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    
-   }
-   .footer h2{
-    padding-top : 0px; 
-    padding-left : 15px; 
-    color: white;
-    font-size: 14px;
-    margin-bottom: 0;
-   }
-   .footer p{
-    color: white;
-    font-size: 15px;
-    margin-top: 1px;
-    padding-top : 0px; 
-    padding-left : 8px; 
-    font-weight: 400;
-    padding-bottom: 2px;
-   }
-   #Iscriviti{
-    padding:  16px 30px;
-    border-radius: 50px;
-    font-size: 16px;
-    color: black;
-
-    border-width: 0;
-    font-weight: 700;
-    margin-right: 20px;
-   }
-   .sopra{
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-    
-   }
-   .HOME{
-    background-color: rgb(18, 18, 18);
-    margin-left: 8px;
-    border-radius: 10px;
-    height: 100%;
-   }
- .iconetonde{
-    width: 20px;  
- 
-    
-   }
-   #partealta{
-    padding: 0 30px;
-    height: 60px;
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5)
-   }
-  #partecentro{
- 
-  padding: 5px 1%;
-  
-  }
-  .immagineArtista {
-    position: relative;
-    width: 180px;
-    height: 180px; 
-    overflow: hidden;
-    border-radius: 50%;
-  }
-  
-  .immagineArtista img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    margin-left: 0; 
-  }
-  #divImg{
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-   
-  }
-  .divArtista:hover{
-    background-color: #2c2b2b65;
-  border-radius: 5px;
-cursor: pointer;  }
-  #CennroAlto{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-weight: 500;
-  }
- #CennroAlto a {
-  color: #737373;
-  font-weight: 800;
-  font-size: 13px;
-  }
-  .nomeArtista{
-    font-size: 16px;
-  font-weight: 400;
-  margin: 9px;
-  }
-  .categoria{
-    font-size: 14px;
-    color: rgb(167, 167, 167);
-    font-weight: 400;
-     margin: 0 12px;
-     
-  }
-  #titoletto1{
-    font-size: 24px;
-    font-weight: 700;
-  }
-  #bottoneIscriviti{
-    color: rgb(167, 167, 167);
-    background-color: transparent;
-    border: transparent;
-    font-size: 16px;
-    padding: 8px 32px 8px 8px;
-    font-weight: 700;
- 
-  }
-  #bottoneIscriviti:hover{
-    color: white;
-    font-size: 17px;
-    cursor: pointer;
-  }
-  #bottoneAccedi{
-    color: rgb(0, 0, 0);
-    background-color: white;
-    border: white;
-    font-size: 16px;
-    padding: 15px 32px;
-    font-weight: 700;
-    border-radius: 30px;
-   
-  }
-  #bottoneAccedi:hover{
-    font-size: 17px;
-    padding: 16px 33px;
-    cursor: pointer;
-
-  }
-  .link{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-  }
-  .link img{
-    background-color: #4242426c;  
-    padding: 8px;
-    border-radius: 50px;
-    margin: 8PX;
-  }
-  .link img:hover{
-    background-color: #8381816c;  
-   
-  }
-  .link h2{
-    font-size: 16px;
-    font-weight: 700;
-    color: white;
-  }
-  .link p{
-    font-size: 16px;
-    font-weight: 400;
-    color: rgb(167, 167, 167);
-    
-  }
-  .link p:hover{
-    text-decoration: underline;
-    color:white;
-    cursor: pointer;
-  }
-  #perlink{
-    padding-top: 70px;
-    margin-left: -60px;
-  }
- hr{
-  border-color: rgba(255, 255, 255, 0.1);
-  border-block-start-width :1px;
-  size: 1px;
-  margin: 20px 30px;
+   transition: background-color 0.2s ease-in-out;
  }
+ 
+ .BottoneLingua:hover {
+   background-color: rgba(255, 255, 255, 0.1);
+   border: 3px solid rgb(255, 255, 255);
+   height: 33px;
+   width: 103px;
+ }
+ .sottodivicone{
+   display: flex;
+   flex-direction: row;
+ 
+   
+ }
+ .sottodivicone :first-child{
+   align-self:normal;
+   margin-right: 4px;
+   width: 7.5%;
+ }
+ .sottodivicone a {
+   color: rgb(179, 179, 179);
+   text-decoration: none;
+   padding-top: 7px;
+   margin-left: 8px;
+   
+ }
+ 
+  .titoletto {
+   font: 16px !important;
+   font-weight: 700 !important;
+   
+  }
+  .icona{
+  margin-top: 3px;
+  cursor: pointer;
+   
+  }
+  .footer{
+  
+   margin: 8px 2px;
+   height: 66px;
+   background-image: linear-gradient(90deg, #ae2997, #509bf5);
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   
+  }
+  .footer h2{
+   padding-top : 0px; 
+   padding-left : 15px; 
+   color: white;
+   font-size: 14px;
+   margin-bottom: 0;
+  }
+  .footer p{
+   color: white;
+   font-size: 15px;
+   margin-top: 1px;
+   padding-top : 0px; 
+   padding-left : 8px; 
+   font-weight: 400;
+   padding-bottom: 2px;
+  }
+  #Iscriviti{
+   padding:  16px 30px;
+   border-radius: 50px;
+   font-size: 16px;
+   color: black;
+
+   border-width: 0;
+   font-weight: 700;
+   margin-right: 20px;
+  }
+  #Iscriviti:hover{
+   padding:  17px 31px;
+   cursor: pointer;
+  }
+  .sopra{
+   display: grid;
+   grid-template-columns: 1fr 6fr;
+   
+  }
+  .HOME{
+   background-color: rgb(18, 18, 18);
+   margin-left: 8px;
+   border-radius: 10px;
+   height: 100%;
+  }
+.iconetonde{
+   width: 20px;  
+
+   
+  }
+  #partealta{
+   padding: 0 30px;
+   height: 60px;
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.5)
+  }
+ #partecentro{
+
+ padding: 5px 1%;
+ background-image: linear-gradient(#1f1f1f, #121212);
+ 
+ }
+ .immagineArtista {
+   position: relative;
+   width: 180px;
+   height: 180px; 
+   overflow: hidden;
+   border-radius: 50%;
+ }
+ 
+ .immagineArtista img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover; 
+   margin-left: 0; 
+ }
+ #divImg{
+ 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  
+ }
+ .divArtista:hover{
+   background-color: #2c2b2b65;
+ border-radius: 5px;
+cursor: pointer;  }
+ #CennroAlto{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   font-weight: 500;
+ }
+#CennroAlto a {
+ color: #737373;
+ font-weight: 800;
+ font-size: 13px;
+ }
+ .nomeArtista{
+   font-size: 16px;
+ font-weight: 400;
+ margin: 9px;
+ }
+ .categoria{
+   font-size: 14px;
+   color: rgb(167, 167, 167);
+   font-weight: 400;
+    margin: 0 12px;
+    
+ }
+ #titoletto1{
+   font-size: 24px;
+   font-weight: 700;
+ }
+ #titoletto1:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+ #bottoneIscriviti{
+   color: rgb(167, 167, 167);
+   background-color: transparent;
+   border: transparent;
+   font-size: 16px;
+   padding: 8px 32px 8px 8px;
+   font-weight: 700;
+
+ }
+ #bottoneIscriviti:hover{
+   color: white;
+   
+   cursor: pointer;
+ }
+ #bottoneAccedi{
+   color: rgb(0, 0, 0);
+   background-color: white;
+   border: white;
+   font-size: 16px;
+   padding: 15px 32px;
+   font-weight: 700;
+   border-radius: 30px;
+  
+  
+ }
+ #bottoneAccedi:hover{
+  
+   padding: 16px 33px;
+   cursor: pointer;
+ 
+
+ }
+ .link{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%;
+ }
+ .link img{
+   background-color: #4242426c;  
+   padding: 8px;
+   border-radius: 50px;
+   margin: 8PX;
+ }
+ .link img:hover{
+   background-color: #8381816c;  
+  
+ }
+ .link h2{
+   font-size: 16px;
+   font-weight: 700;
+   color: white;
+ }
+ .link p{
+   font-size: 16px;
+   font-weight: 400;
+   margin-left: 0;
+   color: rgb(167, 167, 167);
+   
+ }
+ .link p:hover{
+   text-decoration: underline;
+   color:white;
+   cursor: pointer;
+ }
+ #perlink{
+   padding-top: 70px;
+   margin-left: -60px;
+ }
+hr{
+ border-color: rgba(255, 255, 255, 0.1);
+ border-block-start-width :1px;
+ size: 1px;
+ margin: 20px 30px;
+}
 
 #copyright{
-  color: #737373;
-  font-size:0.875rem;
-  font-weight: 400;
-  padding: 16px;
-  margin-bottom: 20px;
+ color: #737373;
+ font-size:0.875rem;
+ font-weight: 400;
+ padding: 16px;
+ margin-bottom: 20px;
 }
 #plus{
-  margin-left: 160px;
-  margin-right: 20px;
-  
+ margin-left: 90px;
+ margin-right: 5px;
+ 
 }
 #plus:hover{
-  background-color: #737373;
+ background-color: #4b4a4a7a;
+ border-radius:40px ;
+ cursor: pointer;
 
+}
+.iconetonde:hover {
+cursor:not-allowed;
+}
+#primo{
+  margin-left: 90px ;
+}
+#social{
+  margin-right: 20px;
 }
