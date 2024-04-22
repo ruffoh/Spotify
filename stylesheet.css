@@ -199,12 +199,17 @@ p >.icone{
   .icona{
   margin-top: 3px;
   cursor: pointer;
+  fill: red;
    
   }
+  .icona:hover{
+    fill: white;
+     
+    }
   .footer{
   
    margin: 8px 2px;
-   height: 66px;
+   height: 10;
    background-image: linear-gradient(90deg, #ae2997, #509bf5);
    display: flex;
    flex-direction: row;
@@ -228,6 +233,11 @@ p >.icone{
    font-weight: 400;
    padding-bottom: 2px;
   }
+.footer:hover{
+  cursor: pointer;
+  
+}
+  
   #Iscriviti{
    padding:  16px 30px;
    border-radius: 50px;
