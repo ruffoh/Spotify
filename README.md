@@ -1,7 +1,7 @@
 
 <h1 align="center">Copia del sito di Spotify</h1>
 <p align="center"> Sito copia del sito attuale di spotify.it</p>
-<h3 align="center"><img width="25%" src="https://cdn.icon-icons.com/icons2/3261/PNG/512/spotify_logo_icon_206676.png" alt="logo" ></h3>
+<h3 align="center"><img width="25%" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/spotify_logo_icon_170709.png" alt="logo" ></h3>
 
 
 ## Description
