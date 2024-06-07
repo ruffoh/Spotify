@@ -1,7 +1,7 @@
 
 <h1 align="center">Copia del sito di Spotify</h1>
 <p align="center"> Sito copia del sito attuale di spotify.it</p>
-<h3 align="center"><img width="25%" src="https://cdn.dribbble.com/users/2284480/screenshots/15988331/media/9335cd177db6913a8059ffc9d0c20e11.gif" alt="logo" ></h3>
+<h3 align="center"><img width="60%" src="https://media2.giphy.com/media/u47BEpzW733OVBActo/giphy.gif?cid=6c09b9523fxfsgaza55ustizgvd5f5wh4h80oud272vuuf2t&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" alt="logo" ></h3>
 
 
 ## Description
