@@ -12,3 +12,4 @@ Per la realizzazione del mio sito, ho dedicato numerose ore, sperimentando diver
 Inizialmente, ho catturato uno screenshot del sito originale di Spotify e ho analizzato la disposizione dei contenuti. Successivamente, ho esaminato il codice HTML per comprendere meglio la struttura. Ho quindi iniziato a tentare di ricreare e perfezionare il layout, apportando modifiche ogni volta fino ad arrivare alla versione finale, ora accessibile al seguente [link](https://ruffoh.github.io/Spotify/spotify.html)
 
 Nonostante non sia perfetto, sono soddisfatto del risultato ottenuto.
+Da Mac ha qualche problema nella visualizzazzione , per ora.
