@@ -5,7 +5,7 @@
 
 
 ## Description
-[Spotify Originale](www.spotify.it)
+[Spotify Originale](https://www.spotify.it)
 
 Per la realizzazione del mio sito, ho dedicato numerose ore, sperimentando diverse versioni e aggiornamenti, il tutto documentato nel mio profilo GitHub (/ruffoh).
 
